@@ -1,0 +1,56 @@
+Started by user [8mha:////4LKku0KycBq16Gqg9Dmok6AuSWm3UYR15X2KaIhXsPsgAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYR/dLi1CL9ksSk1LysxNzMPCMDAwMANHVtkMkAAAA=[0mBenjamin Tagnan
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/cruid-app-test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/cruid-app-test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/tabenjamin2000/crud-for-codepipeline.git # timeout=10
+Fetching upstream changes from https://github.com/tabenjamin2000/crud-for-codepipeline.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > git fetch --tags --progress https://github.com/tabenjamin2000/crud-for-codepipeline.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision bffcaf0820f3b2e1c3b0c5185fbcdf8614c14df2 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bffcaf0820f3b2e1c3b0c5185fbcdf8614c14df2 # timeout=10
+Commit message: "great test"
+ > git rev-list --no-walk bffcaf0820f3b2e1c3b0c5185fbcdf8614c14df2 # timeout=10
+[cruid-app-test] $ /opt/sonar-scanner/bin/sonar-scanner -Dsonar.host.url=https://sonarcloud.io/ ******** -Dsonar.projectKey=tabenjamin2000_crud-for-codepipeline -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=c8da5cd46d56bbe664c2252acc543eedc9f878a0 -Dsonar.organization=geolocation-project-maven -Dsonar.sources=src -Dsonar.java.binaries=target -Dsonar.projectBaseDir=/var/lib/jenkins/workspace/cruid-app-test
+WARN: Property 'sonar.host.url' with value 'https://sonarcloud.io/' is overridden with value 'https://sonarcloud.io'
+WARN: Property 'sonar.login' with value 'c8da5cd46d56bbe664c2252acc543eedc9f878a0' is overridden with value 'c8da5cd46d56bbe664c2252acc543eedc9f878a0'
+INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarScanner 4.7.0.2747
+INFO: Java 11.0.14.1 Eclipse Adoptium (64-bit)
+INFO: Linux 3.10.0-1160.76.1.el7.x86_64 amd64
+INFO: User cache: /var/lib/jenkins/.sonar/cache
+INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: Analyzing on SonarCloud
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Load global settings
+INFO: Load global settings (done) | time=510ms
+INFO: Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+INFO: User cache: /var/lib/jenkins/.sonar/cache
+INFO: Load/download plugins
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=502ms
+INFO: Load/download plugins (done) | time=726ms
+INFO: Loaded core extensions: developer-scanner
+INFO: Found an active CI vendor: 'Jenkins'
+INFO: Load project settings for component key: 'tabenjamin2000_crud-for-codepipeline'
+INFO: Load project settings for component key: 'tabenjamin2000_crud-for-codepipeline' (done) | time=440ms
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 7.259s
+INFO: Final Memory: 7M/27M
+INFO: ------------------------------------------------------------------------
+ERROR: Error during SonarScanner execution
+ERROR: You are running CI analysis while Automatic Analysis is enabled. Please consider disabling one or the other.
+ERROR: 
+ERROR: Re-run SonarScanner using the -X switch to enable full debug logging.
+WARN: Unable to locate 'report-task.txt' in the workspace. Did the SonarScanner succeed?
+ERROR: SonarQube scanner exited with non-zero code: 2
+Finished: FAILURE

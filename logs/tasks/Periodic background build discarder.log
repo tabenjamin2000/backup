@@ -1,0 +1,148 @@
+Started at Fri Sep 23 23:14:40 UTC 2022
+Processing cruid-app-test
+Offering cruid-app-test to Project Build Discarder
+Processing devops-ci
+Offering devops-ci to Project Build Discarder
+Processing geolocation
+Offering geolocation to Project Build Discarder
+Processing geolocation-update
+Offering geolocation-update to Project Build Discarder
+Processing jenkins-pipeline
+Offering jenkins-pipeline to Project Build Discarder
+Processing SonarQube-Test
+Offering SonarQube-Test to Project Build Discarder
+Processing test2
+Offering test2 to Project Build Discarder
+Processing test2/com.example.maven-project:maven-project
+Offering test2/com.example.maven-project:maven-project to Project Build Discarder
+Processing test2/com.example.maven-project:server
+Offering test2/com.example.maven-project:server to Project Build Discarder
+Processing test2/com.example.maven-project:webapp
+Offering test2/com.example.maven-project:webapp to Project Build Discarder
+Processing geolocation-update/com.example.maven-project:maven-project
+Offering geolocation-update/com.example.maven-project:maven-project to Project Build Discarder
+Processing geolocation-update/com.example.maven-project:server
+Offering geolocation-update/com.example.maven-project:server to Project Build Discarder
+Processing geolocation-update/com.example.maven-project:webapp
+Offering geolocation-update/com.example.maven-project:webapp to Project Build Discarder
+Processing geolocation-update/com.spring:bioMedical
+Offering geolocation-update/com.spring:bioMedical to Project Build Discarder
+Processing geolocation/com.spring:bioMedical
+Offering geolocation/com.spring:bioMedical to Project Build Discarder
+Processing cruid-app-test/com.spring:bioMedical
+Offering cruid-app-test/com.spring:bioMedical to Project Build Discarder
+Finished at Fri Sep 23 23:14:40 UTC 2022. 15ms
+Started at Sat Sep 24 00:14:40 UTC 2022
+Processing cruid-app-test
+Offering cruid-app-test to Project Build Discarder
+Processing devops-ci
+Offering devops-ci to Project Build Discarder
+Processing geolocation
+Offering geolocation to Project Build Discarder
+Processing geolocation-update
+Offering geolocation-update to Project Build Discarder
+Processing jenkins-pipeline
+Offering jenkins-pipeline to Project Build Discarder
+Processing New-Pipeline_test
+Offering New-Pipeline_test to Project Build Discarder
+Processing SonarQube-Test
+Offering SonarQube-Test to Project Build Discarder
+Processing test2
+Offering test2 to Project Build Discarder
+Processing test2/com.example.maven-project:maven-project
+Offering test2/com.example.maven-project:maven-project to Project Build Discarder
+Processing test2/com.example.maven-project:server
+Offering test2/com.example.maven-project:server to Project Build Discarder
+Processing test2/com.example.maven-project:webapp
+Offering test2/com.example.maven-project:webapp to Project Build Discarder
+Processing SonarQube-Test/com.spring:bioMedical
+Offering SonarQube-Test/com.spring:bioMedical to Project Build Discarder
+Processing geolocation-update/com.example.maven-project:maven-project
+Offering geolocation-update/com.example.maven-project:maven-project to Project Build Discarder
+Processing geolocation-update/com.example.maven-project:server
+Offering geolocation-update/com.example.maven-project:server to Project Build Discarder
+Processing geolocation-update/com.example.maven-project:webapp
+Offering geolocation-update/com.example.maven-project:webapp to Project Build Discarder
+Processing geolocation-update/com.spring:bioMedical
+Offering geolocation-update/com.spring:bioMedical to Project Build Discarder
+Processing geolocation/com.spring:bioMedical
+Offering geolocation/com.spring:bioMedical to Project Build Discarder
+Processing cruid-app-test/com.spring:bioMedical
+Offering cruid-app-test/com.spring:bioMedical to Project Build Discarder
+Finished at Sat Sep 24 00:14:40 UTC 2022. 0ms
+Started at Sat Sep 24 14:21:14 UTC 2022
+Processing cruid-app-test
+Offering cruid-app-test to Project Build Discarder
+Processing devops-ci
+Offering devops-ci to Project Build Discarder
+Processing geolocation
+Offering geolocation to Project Build Discarder
+Processing geolocation-update
+Offering geolocation-update to Project Build Discarder
+Processing jenkins-pipeline
+Offering jenkins-pipeline to Project Build Discarder
+Processing New-Pipeline_test
+Offering New-Pipeline_test to Project Build Discarder
+Processing SonarQube-Test
+Offering SonarQube-Test to Project Build Discarder
+Processing test2
+Offering test2 to Project Build Discarder
+Processing test2/com.example.maven-project:maven-project
+Offering test2/com.example.maven-project:maven-project to Project Build Discarder
+Processing test2/com.example.maven-project:server
+Offering test2/com.example.maven-project:server to Project Build Discarder
+Processing test2/com.example.maven-project:webapp
+Offering test2/com.example.maven-project:webapp to Project Build Discarder
+Processing SonarQube-Test/com.spring:bioMedical
+Offering SonarQube-Test/com.spring:bioMedical to Project Build Discarder
+Processing geolocation-update/com.example.maven-project:maven-project
+Offering geolocation-update/com.example.maven-project:maven-project to Project Build Discarder
+Processing geolocation-update/com.example.maven-project:server
+Offering geolocation-update/com.example.maven-project:server to Project Build Discarder
+Processing geolocation-update/com.example.maven-project:webapp
+Offering geolocation-update/com.example.maven-project:webapp to Project Build Discarder
+Processing geolocation-update/com.spring:bioMedical
+Offering geolocation-update/com.spring:bioMedical to Project Build Discarder
+Processing geolocation/com.spring:bioMedical
+Offering geolocation/com.spring:bioMedical to Project Build Discarder
+Processing cruid-app-test/com.spring:bioMedical
+Offering cruid-app-test/com.spring:bioMedical to Project Build Discarder
+Finished at Sat Sep 24 14:21:14 UTC 2022. 1ms
+Started at Sat Sep 24 15:21:14 UTC 2022
+Processing cruid-app-test
+Offering cruid-app-test to Project Build Discarder
+Processing devops-ci
+Offering devops-ci to Project Build Discarder
+Processing geolocation
+Offering geolocation to Project Build Discarder
+Processing geolocation-update
+Offering geolocation-update to Project Build Discarder
+Processing jenkins-pipeline
+Offering jenkins-pipeline to Project Build Discarder
+Processing New-Pipeline_test
+Offering New-Pipeline_test to Project Build Discarder
+Processing SonarQube-Test
+Offering SonarQube-Test to Project Build Discarder
+Processing test2
+Offering test2 to Project Build Discarder
+Processing test2/com.example.maven-project:maven-project
+Offering test2/com.example.maven-project:maven-project to Project Build Discarder
+Processing test2/com.example.maven-project:server
+Offering test2/com.example.maven-project:server to Project Build Discarder
+Processing test2/com.example.maven-project:webapp
+Offering test2/com.example.maven-project:webapp to Project Build Discarder
+Processing SonarQube-Test/com.spring:bioMedical
+Offering SonarQube-Test/com.spring:bioMedical to Project Build Discarder
+Processing geolocation-update/com.example.maven-project:maven-project
+Offering geolocation-update/com.example.maven-project:maven-project to Project Build Discarder
+Processing geolocation-update/com.example.maven-project:server
+Offering geolocation-update/com.example.maven-project:server to Project Build Discarder
+Processing geolocation-update/com.example.maven-project:webapp
+Offering geolocation-update/com.example.maven-project:webapp to Project Build Discarder
+Processing geolocation-update/com.spring:bioMedical
+Offering geolocation-update/com.spring:bioMedical to Project Build Discarder
+Processing geolocation/com.spring:bioMedical
+Offering geolocation/com.spring:bioMedical to Project Build Discarder
+Processing cruid-app-test/com.spring:bioMedical
+Offering cruid-app-test/com.spring:bioMedical to Project Build Discarder
+Finished at Sat Sep 24 15:21:14 UTC 2022. 2ms

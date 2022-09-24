@@ -1,0 +1,41 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-11 00:13:59.551 UTC</timestamp>
+  <md5sum>f108adf17d4ea57b215a044e5204bfd1</md5sum>
+  <fileName>org.apache.tomcat.embed:tomcat-embed-el-9.0.30.jar</fileName>
+  <usages>
+    <entry>
+      <string>geolocation</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>SonarQube-Test/com.spring:bioMedical</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>SonarQube-Test</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>cruid-app-test</string>
+      <ranges>6</ranges>
+    </entry>
+    <entry>
+      <string>geolocation/com.spring:bioMedical</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>cruid-app-test/com.spring:bioMedical</string>
+      <ranges>6</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update/com.spring:bioMedical</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

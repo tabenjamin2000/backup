@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-23 23:15:48.606 UTC</timestamp>
+  <original>
+    <name>SonarQube-Test/com.spring:bioMedical</name>
+    <number>1</number>
+  </original>
+  <md5sum>cab5d82033cff721c12aecb0ea22efcf</md5sum>
+  <fileName>com.spring:bioMedical-0.0.1-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>SonarQube-Test/com.spring:bioMedical</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>SonarQube-Test</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

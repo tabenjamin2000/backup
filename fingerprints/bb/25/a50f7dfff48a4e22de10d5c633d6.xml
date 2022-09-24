@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-17 00:28:40.859 UTC</timestamp>
+  <original>
+    <name>test2/com.example.maven-project:webapp</name>
+    <number>1</number>
+  </original>
+  <md5sum>bb25a50f7dfff48a4e22de10d5c633d6</md5sum>
+  <fileName>com.example.maven-project:webapp.war</fileName>
+  <usages>
+    <entry>
+      <string>test2/com.example.maven-project:webapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>test2</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

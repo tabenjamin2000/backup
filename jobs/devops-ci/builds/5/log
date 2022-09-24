@@ -1,0 +1,541 @@
+Started by user [8mha:////4LKku0KycBq16Gqg9Dmok6AuSWm3UYR15X2KaIhXsPsgAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYR/dLi1CL9ksSk1LysxNzMPCMDAwMANHVtkMkAAAA=[0mBenjamin Tagnan
+Obtained Jenkinsfile from git https://github.com/tabenjamin2000/jenkins-pipeline.git
+[8mha:////4PPVfAuAxwBED0XS/cwm9NtV+fjDhIpMe+JELyTC5dn3AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4OyVr2VBlabVPKE4OIgdYF0hIw2hjVpU4T9hVRE4+sImAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4EkOuUXXrDJR+Nhd9RFF2vXttTwvmLenG3iUTYKAjpLuAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/devops-ci
+[8mha:////4PejhQLrAxOXriKCl5O3xez153tVqerbxhXhxc/uS2IzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4JpgaPgLVRPffjXbvNWzltNBtKotnReuccGyp3DqtRHIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4KhrYNz0prp0MChU8r5IPWyIiVZGXSE3XI/XLeuKu201AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4FfV/NDztY549opg5FMbHj6QKCUB48RvonNvW6jjhI5KAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/devops-ci/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/tabenjamin2000/jenkins-pipeline.git # timeout=10
+Fetching upstream changes from https://github.com/tabenjamin2000/jenkins-pipeline.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > git fetch --tags --progress https://github.com/tabenjamin2000/jenkins-pipeline.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 62928d4c61636c965c058306cb19772bfa5e74da (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 62928d4c61636c965c058306cb19772bfa5e74da # timeout=10
+Commit message: "trigger added"
+ > git rev-list --no-walk 993327c552a5621f60ccc7e99cc4753568f44cda # timeout=10
+[8mha:////4HOlV2owpwUrViyv83OyZAwEu2OEvqdv8C+dJxt+TXIsAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4BO+1EsAPfJWtZ76ypP2LjBGMlWHmX0L495OggiWLxjpAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4JgA9/i0FCWqRFGm1x1/jcwb+JgVrpoHmj7SytXQauFIAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4AJb34je2ASoBjw6LgkpIil1u2RkhuOlGEYLgwcAfNE4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4CrST2RaRag0cH966Wx/Im2Nt0UaD+rqnJwRTjJt/VyEAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4O6YfXKO/zjYGQhkx69e/nP0wLTbBwKNEU0AXD85oVfAAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4PzV5YK0JCac6OTkZYNmDYIeKp9LdFr6Bj/SL7qCQAJaAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+[8mha:////4MypJ1K/MsSdVjb6DikC8jGr6DgQLtwu9/EiOaIP5y6DAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4I0EdYLJvIkVsqWJIy6J7/zgza167ca36+817XzYa9wrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4ER/skL2GzZuc/rPJin7Jm5WExDdSrGzEtz8UF4WVJHmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4CnzvVUC5XK7rpX/IDct4Fc+G+8ZBL4MyHPZ4NJ4xJFCAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] withEnv
+[8mha:////4FlplLV6sLPmOdVmv1VJZLH5uu0LdjcZ0u33X5JRST3nAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4LeuU9o7fu2C2EJwrAF9nj/iApeVY9fEjmJyAOzuIWckAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] stage
+[8mha:////4Bg3A6wm64i91iqwOaHtiaPJXnSyd2hIOHih9iUNDqWlAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Build)
+[8mha:////4EV9FL1ths/AosvfxqAXUoB3Sfhxxra370L32u8dE8DdAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] tool
+[8mha:////4ESq3pMqSom3yIDDwsj8GMoy/GzxcCNd0jY0NY6FKlVUAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4E3tkLEhz4ybtPXa7zz/62QT+1iIbP9QFKPsJd59HnktAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAR8nhQvCAAAA[0m[Pipeline] withEnv
+[8mha:////4GyY5PUUwvLYO2Z7Y2WJOfczVgfU3XDRG6ONn2O8sBUGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4Lr2OEe3jMMRQMiG2YaBCHGVwhnwuBjrDfa0ifyJ243NAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] sh
++ mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.spring:bioMedical >------------------------
+[INFO] Building bioMedical 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ bioMedical ---
+[INFO] Deleting /var/lib/jenkins/workspace/devops-ci/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.286 s
+[INFO] Finished at: 2022-09-09T01:52:35Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4PMMG9umjXBHtpwbvrvsXzEkt2amD05hBdgKJsxncj74AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] sh
++ mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.spring:bioMedical >------------------------
+[INFO] Building bioMedical 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ bioMedical ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3371 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ bioMedical ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 19 source files to /var/lib/jenkins/workspace/devops-ci/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ bioMedical ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/devops-ci/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ bioMedical ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/devops-ci/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ bioMedical ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+01:52:49.082 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:49.086 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:52:49.137 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:52:49.226 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.spring.bioMedical.BioMedicalApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:52:49.279 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.spring.bioMedical.BioMedicalApplicationTests], using SpringBootContextLoader
+01:52:49.284 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTests-context.xml] does not exist
+01:52:49.285 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTestsContext.groovy] does not exist
+01:52:49.285 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.spring.bioMedical.BioMedicalApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:52:49.286 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.spring.bioMedical.BioMedicalApplicationTests]: BioMedicalApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:52:49.358 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:49.516 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/devops-ci/target/classes/com/spring/bioMedical/BioMedicalApplication.class]
+01:52:49.517 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.spring.bioMedical.BioMedicalApplication for test class com.spring.bioMedical.BioMedicalApplicationTests
+01:52:49.763 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.spring.bioMedical.BioMedicalApplicationTests]: using defaults.
+01:52:49.764 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+01:52:49.793 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ea5b703, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a7ed1f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3fa247d1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2cb2fc20, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f4c4b1a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@723e88f9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5f0fd5a0, org.springframework.test.context.event.EventPublishingTestExecutionListener@64e7619d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@495ee280, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4fa1c212, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6ea2bc93, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3116c353, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f627d13]
+01:52:49.799 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:49.800 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:49.873 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:49.874 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:52:49.874 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:52:49.874 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.spring.bioMedical.BioMedicalApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:52:49.875 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.spring.bioMedical.BioMedicalApplicationTests], using SpringBootContextLoader
+01:52:49.877 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTests-context.xml] does not exist
+01:52:49.877 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTestsContext.groovy] does not exist
+01:52:49.877 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.spring.bioMedical.BioMedicalApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:52:49.877 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.spring.bioMedical.BioMedicalApplicationTests]: BioMedicalApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:52:49.879 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:49.892 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.spring.bioMedical.BioMedicalApplication for test class com.spring.bioMedical.BioMedicalApplicationTests
+01:52:49.894 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.spring.bioMedical.BioMedicalApplicationTests]: using defaults.
+01:52:49.894 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+01:52:49.894 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6337c201, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5c669da8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@31920ade, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1d483de4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4032d386, org.springframework.test.context.transaction.TransactionalTestExecutionListener@28d18df5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@934b6cb, org.springframework.test.context.event.EventPublishingTestExecutionListener@55cf0d14, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3b74ac8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27adc16e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b83a9be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2609b277, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1fd14d74]
+01:52:49.895 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:49.895 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:50.075 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:50.076 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+[INFO] Running com.spring.bioMedical.BioMedicalApplicationTests
+01:52:50.080 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:50.081 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:50.082 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:50.082 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:50.107 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6581dc0a testClass = BioMedicalApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@39de3d36 testClass = BioMedicalApplicationTests, locations = '{}', classes = '{class com.spring.bioMedical.BioMedicalApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@38afe297, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@70325e14, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@58a9760d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1dac5ef], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+01:52:50.111 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:50.111 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:52:50.172 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-09-09 01:52:50.779  INFO 28517 --- [           main] c.s.b.BioMedicalApplicationTests         : Starting BioMedicalApplicationTests on localhost.localdomain with PID 28517 (started by jenkins in /var/lib/jenkins/workspace/devops-ci)
+2022-09-09 01:52:50.780  INFO 28517 --- [           main] c.s.b.BioMedicalApplicationTests         : No active profile set, falling back to default profiles: default
+2022-09-09 01:52:50.846 DEBUG 28517 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7a527389
+2022-09-09 01:52:52.745  INFO 28517 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-09 01:52:52.955  INFO 28517 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 181ms. Found 3 JPA repository interfaces.
+2022-09-09 01:52:54.542  INFO 28517 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-09 01:52:54.877  INFO 28517 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-09 01:52:55.263  INFO 28517 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+Hibernate: create table app (id integer not null, date varchar(255), description varchar(255), email varchar(255), name varchar(255) not null, regtime varchar(255), time varchar(255), primary key (id))
+Hibernate: alter table app drop constraint if exists UK_88vfgccvckwwip06k7tpf8uk3
+Hibernate: alter table app add constraint UK_88vfgccvckwwip06k7tpf8uk3 unique (name)
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+2022-09-09 01:52:58.780  INFO 28517 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+ 
+ 
+ emailService ============================> com.spring.bioMedical.service.EmailService@65698020
+ 
+ 
+
+2022-09-09 01:53:00.223  WARN 28517 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-09 01:53:00.688  INFO 28517 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/resources/**'], []
+2022-09-09 01:53:00.689  INFO 28517 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/login/**'], []
+2022-09-09 01:53:00.689  INFO 28517 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2022-09-09 01:53:00.689  INFO 28517 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Script/**'], []
+2022-09-09 01:53:00.689  INFO 28517 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Style/**'], []
+2022-09-09 01:53:00.689  INFO 28517 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Icon/**'], []
+2022-09-09 01:53:00.689  INFO 28517 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2022-09-09 01:53:00.689  INFO 28517 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/vendor/**'], []
+2022-09-09 01:53:00.689  INFO 28517 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/bootstrap/**'], []
+2022-09-09 01:53:00.689  INFO 28517 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Image/**'], []
+2022-09-09 01:53:00.968  INFO 28517 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18918d70, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c25deb0, org.springframework.security.web.header.HeaderWriterFilter@4601a148, org.springframework.security.web.csrf.CsrfFilter@4cd6f08b, org.springframework.security.web.authentication.logout.LogoutFilter@31f9f9b3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1018f702, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d01a2eb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34001c5d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d373794, org.springframework.security.web.session.SessionManagementFilter@5543d800, org.springframework.security.web.access.ExceptionTranslationFilter@5eb9bf7d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f14590c]
+2022-09-09 01:53:01.017  INFO 28517 --- [           main] o.s.s.p.JdbcUserDetailsManager           : No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2022-09-09 01:53:02.375  INFO 28517 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-09 01:53:02.416 DEBUG 28517 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-09-09 01:53:02.618 DEBUG 28517 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 27 mappings in 'requestMappingHandlerMapping'
+2022-09-09 01:53:02.757 DEBUG 28517 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-09-09 01:53:02.809 DEBUG 28517 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-09-09 01:53:02.926  WARN 28517 --- [           main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-09-09 01:53:03.250  INFO 28517 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:userauth'
+2022-09-09 01:53:03.489  INFO 28517 --- [           main] c.s.b.BioMedicalApplicationTests         : Started BioMedicalApplicationTests in 13.294 seconds (JVM running for 16.145)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.706 s - in com.spring.bioMedical.BioMedicalApplicationTests
+2022-09-09 01:53:03.992 DEBUG 28517 --- [extShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7a527389, started on Fri Sep 09 01:52:50 UTC 2022
+2022-09-09 01:53:03.997  INFO 28517 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-09 01:53:03.999  INFO 28517 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-09 01:53:04.035  INFO 28517 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-09 01:53:04.062  INFO 28517 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ bioMedical ---
+[INFO] Building jar: /var/lib/jenkins/workspace/devops-ci/target/bioMedical-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ bioMedical ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ bioMedical ---
+[INFO] Installing /var/lib/jenkins/workspace/devops-ci/target/bioMedical-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/spring/bioMedical/0.0.1-SNAPSHOT/bioMedical-0.0.1-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/devops-ci/pom.xml to /var/lib/jenkins/.m2/repository/com/spring/bioMedical/0.0.1-SNAPSHOT/bioMedical-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  36.600 s
+[INFO] Finished at: 2022-09-09T01:53:14Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Jjyz/J+KjcaFGnn7WG56njXFZkFFpG2EV+Bpf57YcqjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGkKHc7j61D2+GdwK3vgAAAA==[0m[Pipeline] sh
++ mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.spring:bioMedical >------------------------
+[INFO] Building bioMedical 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ bioMedical ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3371 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ bioMedical ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ bioMedical ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/devops-ci/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ bioMedical ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ bioMedical ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+01:53:24.082 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:24.093 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:53:24.119 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:53:24.234 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.spring.bioMedical.BioMedicalApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:53:24.293 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.spring.bioMedical.BioMedicalApplicationTests], using SpringBootContextLoader
+01:53:24.333 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTests-context.xml] does not exist
+01:53:24.334 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTestsContext.groovy] does not exist
+01:53:24.334 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.spring.bioMedical.BioMedicalApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:53:24.335 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.spring.bioMedical.BioMedicalApplicationTests]: BioMedicalApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:53:24.421 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:24.678 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/devops-ci/target/classes/com/spring/bioMedical/BioMedicalApplication.class]
+01:53:24.694 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.spring.bioMedical.BioMedicalApplication for test class com.spring.bioMedical.BioMedicalApplicationTests
+01:53:24.959 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.spring.bioMedical.BioMedicalApplicationTests]: using defaults.
+01:53:24.960 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+01:53:25.008 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ea5b703, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a7ed1f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3fa247d1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2cb2fc20, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f4c4b1a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@723e88f9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5f0fd5a0, org.springframework.test.context.event.EventPublishingTestExecutionListener@64e7619d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@495ee280, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4fa1c212, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6ea2bc93, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3116c353, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f627d13]
+01:53:25.029 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:25.031 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:25.109 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:25.109 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:53:25.109 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:53:25.110 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.spring.bioMedical.BioMedicalApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:53:25.111 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.spring.bioMedical.BioMedicalApplicationTests], using SpringBootContextLoader
+01:53:25.133 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTests-context.xml] does not exist
+01:53:25.135 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTestsContext.groovy] does not exist
+01:53:25.136 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.spring.bioMedical.BioMedicalApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:53:25.136 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.spring.bioMedical.BioMedicalApplicationTests]: BioMedicalApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:53:25.139 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:25.140 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.spring.bioMedical.BioMedicalApplication for test class com.spring.bioMedical.BioMedicalApplicationTests
+01:53:25.141 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.spring.bioMedical.BioMedicalApplicationTests]: using defaults.
+01:53:25.141 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+01:53:25.142 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6337c201, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5c669da8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@31920ade, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1d483de4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4032d386, org.springframework.test.context.transaction.TransactionalTestExecutionListener@28d18df5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@934b6cb, org.springframework.test.context.event.EventPublishingTestExecutionListener@55cf0d14, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3b74ac8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27adc16e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b83a9be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2609b277, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1fd14d74]
+01:53:25.142 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:25.142 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:25.283 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:25.283 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+[INFO] Running com.spring.bioMedical.BioMedicalApplicationTests
+01:53:25.306 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:25.306 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:25.306 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:25.306 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:25.310 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6581dc0a testClass = BioMedicalApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@39de3d36 testClass = BioMedicalApplicationTests, locations = '{}', classes = '{class com.spring.bioMedical.BioMedicalApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@38afe297, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@70325e14, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@58a9760d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1dac5ef], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+01:53:25.312 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:25.313 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:53:25.356 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-09-09 01:53:25.993  INFO 28630 --- [           main] c.s.b.BioMedicalApplicationTests         : Starting BioMedicalApplicationTests on localhost.localdomain with PID 28630 (started by jenkins in /var/lib/jenkins/workspace/devops-ci)
+2022-09-09 01:53:25.995  INFO 28630 --- [           main] c.s.b.BioMedicalApplicationTests         : No active profile set, falling back to default profiles: default
+2022-09-09 01:53:26.071 DEBUG 28630 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7a527389
+2022-09-09 01:53:27.927  INFO 28630 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-09 01:53:28.089  INFO 28630 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140ms. Found 3 JPA repository interfaces.
+2022-09-09 01:53:29.545  INFO 28630 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-09 01:53:29.905  INFO 28630 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-09 01:53:30.323  INFO 28630 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+Hibernate: create table app (id integer not null, date varchar(255), description varchar(255), email varchar(255), name varchar(255) not null, regtime varchar(255), time varchar(255), primary key (id))
+Hibernate: alter table app drop constraint if exists UK_88vfgccvckwwip06k7tpf8uk3
+Hibernate: alter table app add constraint UK_88vfgccvckwwip06k7tpf8uk3 unique (name)
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+2022-09-09 01:53:33.766  INFO 28630 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+ 
+ 
+ emailService ============================> com.spring.bioMedical.service.EmailService@57617a75
+ 
+ 
+
+2022-09-09 01:53:35.304  WARN 28630 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-09 01:53:35.802  INFO 28630 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/resources/**'], []
+2022-09-09 01:53:35.803  INFO 28630 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/login/**'], []
+2022-09-09 01:53:35.803  INFO 28630 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2022-09-09 01:53:35.803  INFO 28630 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Script/**'], []
+2022-09-09 01:53:35.803  INFO 28630 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Style/**'], []
+2022-09-09 01:53:35.803  INFO 28630 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Icon/**'], []
+2022-09-09 01:53:35.803  INFO 28630 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2022-09-09 01:53:35.804  INFO 28630 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/vendor/**'], []
+2022-09-09 01:53:35.804  INFO 28630 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/bootstrap/**'], []
+2022-09-09 01:53:35.804  INFO 28630 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Image/**'], []
+2022-09-09 01:53:36.180  INFO 28630 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d373794, org.springframework.security.web.context.SecurityContextPersistenceFilter@1be12e05, org.springframework.security.web.header.HeaderWriterFilter@4e210016, org.springframework.security.web.csrf.CsrfFilter@78b2d29e, org.springframework.security.web.authentication.logout.LogoutFilter@7730da00, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5400db7e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fe337a5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30e15628, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7304ca87, org.springframework.security.web.session.SessionManagementFilter@1e033801, org.springframework.security.web.access.ExceptionTranslationFilter@64f613da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46051269]
+2022-09-09 01:53:36.233  INFO 28630 --- [           main] o.s.s.p.JdbcUserDetailsManager           : No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2022-09-09 01:53:37.856  INFO 28630 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-09 01:53:37.887 DEBUG 28630 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-09-09 01:53:38.116 DEBUG 28630 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 27 mappings in 'requestMappingHandlerMapping'
+2022-09-09 01:53:38.328 DEBUG 28630 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-09-09 01:53:38.368 DEBUG 28630 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-09-09 01:53:38.512  WARN 28630 --- [           main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-09-09 01:53:38.879  INFO 28630 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:userauth'
+2022-09-09 01:53:39.235  INFO 28630 --- [           main] c.s.b.BioMedicalApplicationTests         : Started BioMedicalApplicationTests in 13.841 seconds (JVM running for 16.532)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.335 s - in com.spring.bioMedical.BioMedicalApplicationTests
+2022-09-09 01:53:39.835 DEBUG 28630 --- [extShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7a527389, started on Fri Sep 09 01:53:26 UTC 2022
+2022-09-09 01:53:39.859  INFO 28630 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-09 01:53:39.862  INFO 28630 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-09 01:53:39.869  INFO 28630 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-09 01:53:39.908  INFO 28630 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ bioMedical ---
+[INFO] Building jar: /var/lib/jenkins/workspace/devops-ci/target/bioMedical-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ bioMedical ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.730 s
+[INFO] Finished at: 2022-09-09T01:53:50Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4CiZlS1CKt2VHZQU1CLlfBF52hu1Anjrmq7+qxUmQGq+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2gS0pbvgAAAA==[0m[Pipeline] }
+[8mha:////4AQHG1DQG0RtGQosasA9u05wgqCIh1d/KCA9AMFNMaMOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCgA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPkohNa2+AAAA[0m[Pipeline] // withEnv
+[8mha:////4BDeWrCU5cnFE+apFcRHDeHOWDtEsRC12Y1zc/VgKL/dAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiQImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1B2AGAxa+AAAA[0m[Pipeline] }
+[8mha:////4Oy+S1EUblQtwFe0Lbq51bS+Yh0QxywA9ZouOVMpW+slAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJBoURUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzUuer9B1hEkOe+AAAA[0m[Pipeline] // stage
+[8mha:////4MzMpiWuZgZgLH8S38VmqXldMeOh6zQQRFocBUQMYBOyAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqBNCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQGmL6p9wgAAAA==[0m[Pipeline] stage
+[8mha:////4FuHkBDQToFxBfhol6SzYVukOQo5UQbz6Ityhi9fy56mAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (Test)
+[8mha:////4EL44kqrpjFZxplwLlmxB6b5ApjXbyteH9RL2nVT1G0NAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBtZos2m+AAAA[0m[Pipeline] tool
+[8mha:////4IteyRYhUkzhb5u2WToJR8Hf3PjF9rcXbmzFsssbeW6sAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxU7nkK+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4Oh6GDgPNNZxqlBZnisEmc4jCHL4sSNgrWbd0bmv2eeeAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AIkBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAovpTBwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4BiD+fdwUclK3Zelpj2yd+TdC/64n6jIQGB5NCUNfaaNAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] {
+[8mha:////4G3tGNMWrTRl43MJGJWaB70Q6JFQJX3ztMoJjIK0DFSKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] sh
++ mvn test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.spring:bioMedical >------------------------
+[INFO] Building bioMedical 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ bioMedical ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3371 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ bioMedical ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ bioMedical ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/devops-ci/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ bioMedical ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ bioMedical ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+01:54:00.860 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:00.906 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:54:00.915 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:54:01.014 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.spring.bioMedical.BioMedicalApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:54:01.082 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.spring.bioMedical.BioMedicalApplicationTests], using SpringBootContextLoader
+01:54:01.089 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTests-context.xml] does not exist
+01:54:01.111 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTestsContext.groovy] does not exist
+01:54:01.111 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.spring.bioMedical.BioMedicalApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:54:01.113 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.spring.bioMedical.BioMedicalApplicationTests]: BioMedicalApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:54:01.269 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:01.428 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/devops-ci/target/classes/com/spring/bioMedical/BioMedicalApplication.class]
+01:54:01.447 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.spring.bioMedical.BioMedicalApplication for test class com.spring.bioMedical.BioMedicalApplicationTests
+01:54:01.641 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.spring.bioMedical.BioMedicalApplicationTests]: using defaults.
+01:54:01.641 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+01:54:01.673 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ea5b703, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a7ed1f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3fa247d1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2cb2fc20, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f4c4b1a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@723e88f9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5f0fd5a0, org.springframework.test.context.event.EventPublishingTestExecutionListener@64e7619d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@495ee280, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4fa1c212, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6ea2bc93, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3116c353, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f627d13]
+01:54:01.683 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:01.687 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:01.770 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:01.770 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:54:01.771 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:54:01.771 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.spring.bioMedical.BioMedicalApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:54:01.772 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.spring.bioMedical.BioMedicalApplicationTests], using SpringBootContextLoader
+01:54:01.773 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTests-context.xml] does not exist
+01:54:01.773 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTestsContext.groovy] does not exist
+01:54:01.773 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.spring.bioMedical.BioMedicalApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:54:01.773 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.spring.bioMedical.BioMedicalApplicationTests]: BioMedicalApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:54:01.775 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:01.776 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.spring.bioMedical.BioMedicalApplication for test class com.spring.bioMedical.BioMedicalApplicationTests
+01:54:01.791 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.spring.bioMedical.BioMedicalApplicationTests]: using defaults.
+01:54:01.791 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+01:54:01.791 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6337c201, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5c669da8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@31920ade, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1d483de4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4032d386, org.springframework.test.context.transaction.TransactionalTestExecutionListener@28d18df5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@934b6cb, org.springframework.test.context.event.EventPublishingTestExecutionListener@55cf0d14, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3b74ac8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27adc16e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b83a9be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2609b277, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1fd14d74]
+01:54:01.791 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:01.791 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:01.913 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:01.913 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+[INFO] Running com.spring.bioMedical.BioMedicalApplicationTests
+01:54:01.924 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:01.925 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:01.925 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:01.925 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:01.931 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6581dc0a testClass = BioMedicalApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@39de3d36 testClass = BioMedicalApplicationTests, locations = '{}', classes = '{class com.spring.bioMedical.BioMedicalApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@38afe297, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@70325e14, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@58a9760d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1dac5ef], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+01:54:01.933 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:01.933 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:54:02.017 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-09-09 01:54:02.560  INFO 28761 --- [           main] c.s.b.BioMedicalApplicationTests         : Starting BioMedicalApplicationTests on localhost.localdomain with PID 28761 (started by jenkins in /var/lib/jenkins/workspace/devops-ci)
+2022-09-09 01:54:02.562  INFO 28761 --- [           main] c.s.b.BioMedicalApplicationTests         : No active profile set, falling back to default profiles: default
+2022-09-09 01:54:02.637 DEBUG 28761 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7a527389
+2022-09-09 01:54:04.383  INFO 28761 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-09 01:54:04.672  INFO 28761 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 277ms. Found 3 JPA repository interfaces.
+2022-09-09 01:54:06.045  INFO 28761 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-09 01:54:06.433  INFO 28761 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-09 01:54:06.955  INFO 28761 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+Hibernate: create table app (id integer not null, date varchar(255), description varchar(255), email varchar(255), name varchar(255) not null, regtime varchar(255), time varchar(255), primary key (id))
+Hibernate: alter table app drop constraint if exists UK_88vfgccvckwwip06k7tpf8uk3
+Hibernate: alter table app add constraint UK_88vfgccvckwwip06k7tpf8uk3 unique (name)
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+2022-09-09 01:54:10.464  INFO 28761 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+ 
+ 
+ emailService ============================> com.spring.bioMedical.service.EmailService@141234df
+ 
+ 
+
+2022-09-09 01:54:11.810  WARN 28761 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-09 01:54:12.349  INFO 28761 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/resources/**'], []
+2022-09-09 01:54:12.350  INFO 28761 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/login/**'], []
+2022-09-09 01:54:12.350  INFO 28761 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2022-09-09 01:54:12.350  INFO 28761 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Script/**'], []
+2022-09-09 01:54:12.350  INFO 28761 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Style/**'], []
+2022-09-09 01:54:12.350  INFO 28761 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Icon/**'], []
+2022-09-09 01:54:12.350  INFO 28761 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2022-09-09 01:54:12.350  INFO 28761 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/vendor/**'], []
+2022-09-09 01:54:12.350  INFO 28761 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/bootstrap/**'], []
+2022-09-09 01:54:12.350  INFO 28761 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Image/**'], []
+2022-09-09 01:54:12.633  INFO 28761 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64921450, org.springframework.security.web.context.SecurityContextPersistenceFilter@57ed8f95, org.springframework.security.web.header.HeaderWriterFilter@123d0816, org.springframework.security.web.csrf.CsrfFilter@288b8663, org.springframework.security.web.authentication.logout.LogoutFilter@cbc3bf3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@151d216e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66ab088c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@156eeff1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18918d70, org.springframework.security.web.session.SessionManagementFilter@2fc40856, org.springframework.security.web.access.ExceptionTranslationFilter@515fff35, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4e826fd4]
+2022-09-09 01:54:12.672  INFO 28761 --- [           main] o.s.s.p.JdbcUserDetailsManager           : No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2022-09-09 01:54:14.042  INFO 28761 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-09 01:54:14.090 DEBUG 28761 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-09-09 01:54:14.301 DEBUG 28761 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 27 mappings in 'requestMappingHandlerMapping'
+2022-09-09 01:54:14.440 DEBUG 28761 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-09-09 01:54:14.473 DEBUG 28761 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-09-09 01:54:14.669  WARN 28761 --- [           main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-09-09 01:54:14.998  INFO 28761 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:userauth'
+2022-09-09 01:54:15.242  INFO 28761 --- [           main] c.s.b.BioMedicalApplicationTests         : Started BioMedicalApplicationTests in 13.201 seconds (JVM running for 15.625)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.631 s - in com.spring.bioMedical.BioMedicalApplicationTests
+2022-09-09 01:54:15.717 DEBUG 28761 --- [extShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7a527389, started on Fri Sep 09 01:54:02 UTC 2022
+2022-09-09 01:54:15.744  INFO 28761 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-09 01:54:15.747  INFO 28761 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-09 01:54:15.751  INFO 28761 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-09 01:54:15.766  INFO 28761 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.527 s
+[INFO] Finished at: 2022-09-09T01:54:16Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4JsenThWrsyvGK+RX/fpQ7QweET9R9g18aNdQcMeOfuyAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wArmI/eL4AAAA=[0m[Pipeline] }
+[8mha:////4Iul0IgEpdmrRKsspwTyPWrxFed54kG4Ex9sH5m+TYblAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAmqzcI74AAAA=[0m[Pipeline] // withEnv
+[8mha:////4OnWJfBFj8xF7rfkrfP8yKGwZj5o+2u2/1N1Fd96drZcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP46PQTy+AAAA[0m[Pipeline] }
+[8mha:////4GZX9VjviJcglWSLxrS32jUSnt0qXBeN2wLX1WbdArwBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpQoeoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AIjJeWm+AAAA[0m[Pipeline] // stage
+[8mha:////4AZxZ0jVbzu6y/g9EG2EDgIySrUwEHakb/zqjhhCuS91AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSF0QYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g2QIQilwgAAAA==[0m[Pipeline] stage
+[8mha:////4AckJA3C4/CTBAxxk/nbqjQc7U7u3Ds7NDtruAwEgIRYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] { (Deploy)
+[8mha:////4AbkuIh6J6wHsVCGTQc5ZT6JlyB3hIQAvMBeM5gIeI6VAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBj0vY+u+AAAA[0m[Pipeline] tool
+[8mha:////4HXmBTcjyw3X5Ouww2sqkesWg9MQRDhIYpj0fxE7Gzl4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN3weePK+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4BFZ+UJgYC26ioX6umDBljRwgyhE/J9IgP0fqUdVu+XHAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAA8BHNAwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4MPu0oKAwi8YLasaY+zOk8MDRifvNf3EjHHThY4YqBmgAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] {
+[8mha:////4AJqeyKW9D1DKOqqC/MYbFnCAcheecxc1dUtpqkU4Y6tAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAQVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/4iFt7vgAAAA==[0m[Pipeline] echo
+Deploy Step
+[8mha:////4AuVfWOPztyp1SMKYjMjPDEJfigbdz/ZO3JfQ6wG/WN+AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAublAYr4AAAA=[0m[Pipeline] sleep
+Sleeping for 10 sec
+[8mha:////4MENLaxtg0z5upFhrFJX+r3ZfEkk7L9ZzIv/64CLYfRSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAQG7Gq74AAAA=[0m[Pipeline] }
+[8mha:////4DEbf3RKUJ84Z8MiW3GKzt8aUkLnPh3+tVjuo9Dy893oAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAc42dF74AAAA=[0m[Pipeline] // withEnv
+[8mha:////4KmTR94vGjeYLYBzvZbMvCxX9J+S1rgMV7kZRZLNlv/wAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpkgpR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrKpc9XNB3bBKXS+AAAA[0m[Pipeline] }
+[8mha:////4HNJKdnASWDoZ0diAZnnIst/c/yRstNYuEGC0K47jaSCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpkgpR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrJpctX1B0Uicsi+AAAA[0m[Pipeline] // stage
+[8mha:////4B8zEulEFDyc3nbQOlFmwrQWFr/yqHlNkDRjHMpeRve3AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDCAh1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bdvd5Vm8vi7dOwgAAAA==[0m[Pipeline] stage
+[8mha:////4NofD0FtvLVL/GfIGdUp38Q8jTag9aMAeQG0nxFhXPT2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] { (Docker)
+[8mha:////4JlQ0WmaVoWk5nQA+P1DjEkMrGSYyuCmR6pHux6wHv/LAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzN5Fy++AAAA[0m[Pipeline] tool
+[8mha:////4PPxem+A+c6WUSTM1hnbCyMwzKPQ7RG1aljveJk1DiWUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN3JIDDa+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4OStONl/9IUy4AaGLVtBR/54Xx1P5L2sk4UHcrvRwCHmAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBRhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQHWYnb4wgAAAA==[0m[Pipeline] withEnv
+[8mha:////4IxwpQNpIeKTRq0uv7MVX+Qt4yCUJ8lM0Yf0Vwrti31HAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUFhbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAQB2j23CAAAA[0m[Pipeline] {
+[8mha:////4E61i7PYZpa0jGDD26mX7+2PuyM3vnu27tddlCox/H+MAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNzkd4Tq+AAAA[0m[Pipeline] echo
+Image step
+[8mha:////4MvfGktM1m5l5q8sVnlJyz7WQ2uHjgZuvVHogPgOaVVKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgHITZ9tvgAAAA==[0m[Pipeline] }
+[8mha:////4F306wHywspJ1exkQVm2mpwkHoUeIitddg9ZvPR5jwMOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgWgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN+ZNnQe+AAAA[0m[Pipeline] // withEnv
+[8mha:////4Pk4Hqyb94LZyEvXVQUOYlJpI6sPyXmCKDa/4k5m1L4+AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBQpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiNYiHm+AAAA[0m[Pipeline] }
+[8mha:////4ECFSsciuPkSlfL4sTsArt1ABkKj6XyL6RmWfy+gzNdMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpSIOoaC03vMAkh3Fi3Rnbwal4EV/jD1hEomKL1c4283rDOgY4cjBiQBotxc4K7yZTlsgcxqvjLAa+iI4pskOhMCvu8bSg4oSwpKphJWGD1DmOlkyCrRz0QzdOk2nOKZTvIKG2/R2eUMliTjqkL8wBdrepj0w/z18BzN4nqNu21L79ABsaG4i+AAAA[0m[Pipeline] // stage
+[8mha:////4FTrDrpFPN/MARMsTTKFVya8i2Qmw/tKCyGLh3b4lZHUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGhBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8rEZS3vgAAAA==[0m[Pipeline] }
+[8mha:////4MGMday/3GgFMQH6AgBZJkZzul5n1M2dlEe5545k0xcAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGhQJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w9ok8UxvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4JSIK5ANnRqXqYbYJQskBEiqrGOeLjpNCcmj6Lcru09KAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiNEgIUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w9p+EWDvgAAAA==[0m[Pipeline] }
+[8mha:////4EeXRfaT+muudGJu/3CfaVmEAI9BPXngHqqY3Rkl/ldGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISKgpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP4OSOnW+AAAA[0m[Pipeline] // withEnv
+[8mha:////4E4lpP8xg8rdgUtF3aWjuys+aehuZUFj+uQcyOAgOsCDAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREhIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN9vBdnuAyjhfDm9AAAA[0m[Pipeline] }
+[8mha:////4Hv5w/cYsd4UYrHWdqvWNOwBYRpTX1O+BCbkQmdqnjniAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9AFsOuOC9AAAA[0m[Pipeline] // node
+[8mha:////4L9ZuugnZ8S6T7Qao7Nwaa/D4t5RFY6FwUK6+WmPCmjDAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AH0X36q9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

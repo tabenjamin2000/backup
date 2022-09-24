@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-17 01:50:31.696 UTC</timestamp>
+  <original>
+    <name>geolocation-update/com.spring:bioMedical</name>
+    <number>1</number>
+  </original>
+  <md5sum>a0a6257fcf711ca878f2039263d54bb7</md5sum>
+  <fileName>com.spring:bioMedical:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>geolocation-update</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update/com.spring:bioMedical</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

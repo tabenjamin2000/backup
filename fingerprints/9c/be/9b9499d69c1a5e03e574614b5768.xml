@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-11 00:13:59.331 UTC</timestamp>
+  <original>
+    <name>cruid-app-test/com.spring:bioMedical</name>
+    <number>6</number>
+  </original>
+  <md5sum>9cbe9b9499d69c1a5e03e574614b5768</md5sum>
+  <fileName>com.spring:bioMedical:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>geolocation</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>SonarQube-Test/com.spring:bioMedical</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>SonarQube-Test</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>cruid-app-test</string>
+      <ranges>6</ranges>
+    </entry>
+    <entry>
+      <string>geolocation/com.spring:bioMedical</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>cruid-app-test/com.spring:bioMedical</string>
+      <ranges>6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

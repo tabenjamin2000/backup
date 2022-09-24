@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-17 00:54:05.23 UTC</timestamp>
+  <original>
+    <name>geolocation/com.spring:bioMedical</name>
+    <number>1</number>
+  </original>
+  <md5sum>d5e0af8e341147a921af0d74afbe94ca</md5sum>
+  <fileName>com.spring:bioMedical-0.0.1-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>geolocation</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>geolocation/com.spring:bioMedical</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

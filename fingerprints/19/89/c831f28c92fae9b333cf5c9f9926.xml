@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-17 00:28:38.712 UTC</timestamp>
+  <md5sum>1989c831f28c92fae9b333cf5c9f9926</md5sum>
+  <fileName>org.objenesis:objenesis-1.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>test2/com.example.maven-project:server</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>test2</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update/com.example.maven-project:server</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update</string>
+      <ranges>3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

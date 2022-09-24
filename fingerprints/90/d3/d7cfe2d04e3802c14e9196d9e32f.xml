@@ -1,0 +1,41 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-11 00:14:00.76 UTC</timestamp>
+  <md5sum>90d3d7cfe2d04e3802c14e9196d9e32f</md5sum>
+  <fileName>org.hibernate:hibernate-core-5.4.10.Final.jar</fileName>
+  <usages>
+    <entry>
+      <string>geolocation</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>SonarQube-Test/com.spring:bioMedical</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>SonarQube-Test</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>cruid-app-test</string>
+      <ranges>6</ranges>
+    </entry>
+    <entry>
+      <string>geolocation/com.spring:bioMedical</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>cruid-app-test/com.spring:bioMedical</string>
+      <ranges>6</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update/com.spring:bioMedical</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

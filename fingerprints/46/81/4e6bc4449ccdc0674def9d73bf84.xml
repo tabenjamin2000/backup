@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-10 23:56:03.701 UTC</timestamp>
+  <md5sum>46814e6bc4449ccdc0674def9d73bf84</md5sum>
+  <fileName>Credential id=603053c0-9601-4692-8f3a-41d89d941f7d name=tabenjamin2000/****** (jenkins-git-passwd)</fileName>
+  <usages>
+    <entry>
+      <string>cruid-app-test</string>
+      <ranges>3-6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,22 @@
+Started on Sep 23, 2022, 7:03:45 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision fc4c7f6c765b88c9c70249a83e44412e232ec139 (refs/remotes/origin/master)
+The recommended git tool is: git
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > git ls-remote -h https://github.com/tabenjamin2000/jenkins-pipeline.git # timeout=10
+Found 1 remote heads on https://github.com/tabenjamin2000/jenkins-pipeline.git
+[poll] Latest remote head revision on refs/heads/master is: fc4c7f6c765b88c9c70249a83e44412e232ec139 - already built by 26
+Using strategy: Default
+[poll] Last Built Revision: Revision f7ccab66026d0428403cf5cd97218db4841345b4 (refs/remotes/origin/main)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > git ls-remote -h https://github.com/tabenjamin2000/hello_may_22.git # timeout=10
+Found 2 remote heads on https://github.com/tabenjamin2000/hello_may_22.git
+[poll] Latest remote head revision on refs/heads/main is: e02c5d91b10c7860a23bbb62c35fc161e0b98095
+Done. Took 0.63 sec
+Changes found

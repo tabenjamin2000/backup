@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-17 00:28:40.957 UTC</timestamp>
+  <md5sum>dd575c153ec55c650d2a66aefc5ba9d3</md5sum>
+  <fileName>javax.servlet.jsp:jsp-api-2.2.jar</fileName>
+  <usages>
+    <entry>
+      <string>test2/com.example.maven-project:webapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update/com.example.maven-project:webapp</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>test2</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update</string>
+      <ranges>3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

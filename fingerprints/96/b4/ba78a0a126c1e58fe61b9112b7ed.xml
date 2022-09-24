@@ -1,0 +1,41 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-11 00:13:59.562 UTC</timestamp>
+  <md5sum>96b4ba78a0a126c1e58fe61b9112b7ed</md5sum>
+  <fileName>org.springframework.boot:spring-boot-devtools-2.2.4.RELEASE.jar</fileName>
+  <usages>
+    <entry>
+      <string>geolocation</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>SonarQube-Test/com.spring:bioMedical</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>SonarQube-Test</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>cruid-app-test</string>
+      <ranges>6</ranges>
+    </entry>
+    <entry>
+      <string>geolocation/com.spring:bioMedical</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>cruid-app-test/com.spring:bioMedical</string>
+      <ranges>6</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update/com.spring:bioMedical</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

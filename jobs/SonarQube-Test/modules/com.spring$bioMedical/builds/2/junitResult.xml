@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1119.1121.vc43d0fc45561">
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/workspace/SonarQube-Test/target/surefire-reports/TEST-com.spring.bioMedical.BioMedicalApplicationTests.xml</file>
+      <name>com.spring.bioMedical.BioMedicalApplicationTests</name>
+      <duration>9.476</duration>
+      <time>9.476</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.19</duration>
+          <className>com.spring.bioMedical.BioMedicalApplicationTests</className>
+          <testName>contextLoads</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>9.476</duration>
+  <skipOldReports>true</skipOldReports>
+  <keepLongStdio>false</keepLongStdio>
+</result>

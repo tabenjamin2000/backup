@@ -1,0 +1,10 @@
+commit 62928d4c61636c965c058306cb19772bfa5e74da
+tree b36fc00990333344f3d34583c9592313c1242aaa
+parent 993327c552a5621f60ccc7e99cc4753568f44cda
+author Benjamin Tagnan <tabenjamin2000@yahoo.fr> 2022-09-08 21:49:49 -0400
+committer Benjamin Tagnan <tabenjamin2000@yahoo.fr> 2022-09-08 21:49:49 -0400
+
+    trigger added
+
+
+:100644 100644 c50652abe8818831cc1ec2c9fe6ce6e5a825acf0 98b02300de8f872f3540e8d11db6dbacd0f6b722 M	Jenkinsfile

@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-09-17 00:28:32.325 UTC</timestamp>
+  <original>
+    <name>test2/com.example.maven-project:maven-project</name>
+    <number>1</number>
+  </original>
+  <md5sum>facba74c444d79171692bc3e6a1d5a11</md5sum>
+  <fileName>com.example.maven-project:maven-project:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>test2/com.example.maven-project:maven-project</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>test2/com.example.maven-project:webapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>test2/com.example.maven-project:server</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update/com.example.maven-project:webapp</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>test2</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update/com.example.maven-project:server</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>geolocation-update/com.example.maven-project:maven-project</string>
+      <ranges>3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

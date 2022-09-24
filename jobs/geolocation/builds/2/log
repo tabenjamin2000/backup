@@ -1,0 +1,924 @@
+Started by user [8mha:////4LKku0KycBq16Gqg9Dmok6AuSWm3UYR15X2KaIhXsPsgAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYR/dLi1CL9ksSk1LysxNzMPCMDAwMANHVtkMkAAAA=[0mBenjamin Tagnan
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/geolocation
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/geolocation/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/tabenjamin2000/geolocation.git # timeout=10
+Fetching upstream changes from https://github.com/tabenjamin2000/geolocation.git
+ > git --version # timeout=10
+ > git --version # 'git version 1.8.3.1'
+ > git fetch --tags --progress https://github.com/tabenjamin2000/geolocation.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 8e6b6340acad060ffd3309d24b23b39ccf78f4ac (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8e6b6340acad060ffd3309d24b23b39ccf78f4ac # timeout=10
+Commit message: "first commit"
+ > git rev-list --no-walk 8e6b6340acad060ffd3309d24b23b39ccf78f4ac # timeout=10
+[geolocation] $ /opt/sonar-scanner/bin/sonar-scanner -Dsonar.host.url=https://sonarcloud.io/ ******** -Dsonar.projectKey=tabenjamin2000_geolocation -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=ce1f39e2e784d11162d7d24ba45242f85b9bf2a5 -Dsonar.organization=geolocation-project-maven -Dsonar.sources=src -Dsonar.java.binaries=target -Dsonar.projectBaseDir=/var/lib/jenkins/workspace/geolocation
+WARN: Property 'sonar.host.url' with value 'https://sonarcloud.io/' is overridden with value 'https://sonarcloud.io'
+WARN: Property 'sonar.login' with value 'c8da5cd46d56bbe664c2252acc543eedc9f878a0' is overridden with value 'ce1f39e2e784d11162d7d24ba45242f85b9bf2a5'
+INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarScanner 4.7.0.2747
+INFO: Java 11.0.14.1 Eclipse Adoptium (64-bit)
+INFO: Linux 3.10.0-1160.76.1.el7.x86_64 amd64
+INFO: User cache: /var/lib/jenkins/.sonar/cache
+INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: Analyzing on SonarCloud
+INFO: Default locale: "en_US", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Load global settings
+INFO: Load global settings (done) | time=526ms
+INFO: Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+INFO: User cache: /var/lib/jenkins/.sonar/cache
+INFO: Load/download plugins
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=494ms
+INFO: Load/download plugins (done) | time=3332ms
+INFO: Loaded core extensions: developer-scanner
+INFO: Found an active CI vendor: 'Jenkins'
+INFO: Load project settings for component key: 'tabenjamin2000_geolocation'
+INFO: Load project settings for component key: 'tabenjamin2000_geolocation' (done) | time=446ms
+INFO: Process project properties
+INFO: Execute project builders
+INFO: Execute project builders (done) | time=3ms
+INFO: Project key: tabenjamin2000_geolocation
+INFO: Base dir: /var/lib/jenkins/workspace/geolocation
+INFO: Working dir: /var/lib/jenkins/workspace/geolocation/.scannerwork
+INFO: Load project branches
+INFO: Load project branches (done) | time=466ms
+INFO: Check ALM binding of project 'tabenjamin2000_geolocation'
+INFO: Detected project binding: BOUND
+INFO: Check ALM binding of project 'tabenjamin2000_geolocation' (done) | time=475ms
+INFO: Load project pull requests
+INFO: Load project pull requests (done) | time=427ms
+INFO: Load branch configuration
+INFO: Load branch configuration (done) | time=2ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=571ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=5333ms
+INFO: Organization key: geolocation-project-maven
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=1305ms
+INFO: Indexing files...
+INFO: Project configuration:
+INFO:   Excluded sources: **/build-wrapper-dump.json
+INFO: 3250 files indexed
+INFO: 0 files ignored because of inclusion/exclusion patterns
+INFO: 0 files ignored because of scm ignore settings
+INFO: Quality profile for css: Sonar way
+INFO: Quality profile for java: Sonar way
+INFO: Quality profile for js: Sonar way
+INFO: Quality profile for json: Sonar way
+INFO: Quality profile for plsql: Sonar way
+INFO: Quality profile for web: Sonar way
+INFO: ------------- Run sensors on module tabenjamin2000_geolocation
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=478ms
+INFO: Sensor JavaSensor [java]
+INFO: Configured Java source version (sonar.java.source): none
+INFO: JavaClasspath initialization
+INFO: JavaClasspath initialization (done) | time=3ms
+INFO: JavaTestClasspath initialization
+INFO: JavaTestClasspath initialization (done) | time=3ms
+INFO: Server-side caching is not enabled. The Java analyzer will not try to leverage data from a previous analysis.
+INFO: Using ECJ batch to parse 1361 Main java source files with batch size 100 KB.
+INFO: Starting batch processing.
+INFO: The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+INFO: 100% analyzed
+INFO: Batch processing: Done.
+INFO: Did not optimize analysis for any files, performed a full analysis for all 1361 files.
+WARN: Dependencies/libraries were not provided for analysis of SOURCE files. The 'sonar.java.libraries' property is empty. Verify your configuration, as you might end up with less precise results.
+WARN: Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+WARN: Use of preview features have been detected during analysis. Enable DEBUG mode to see them.
+INFO: No "Test" source files to scan.
+INFO: No "Generated" source files to scan.
+INFO: Sensor JavaSensor [java] (done) | time=30699ms
+INFO: Sensor IaC CloudFormation Sensor [iac]
+INFO: 0 source files to be analyzed
+INFO: 0/0 source files have been analyzed
+INFO: Sensor IaC CloudFormation Sensor [iac] (done) | time=31ms
+INFO: Sensor IaC Kubernetes Sensor [iac]
+INFO: 0 source files to be analyzed
+INFO: 0/0 source files have been analyzed
+INFO: Sensor IaC Kubernetes Sensor [iac] (done) | time=16ms
+INFO: Sensor PL/SQL Sensor [plsql]
+WARN: The Data Dictionary is not configured for PLSQL analyzer which prevents rule(s) S3641, S3921, S3618, S3651 to raise issues. See https://sonarcloud.io/documentation/analysis/languages/plsql/
+INFO: 2 source files to be analyzed
+INFO: 2/2 source files have been analyzed
+INFO: Sensor PL/SQL Sensor [plsql] (done) | time=247ms
+INFO: Sensor C# Project Type Information [csharp]
+INFO: Sensor C# Project Type Information [csharp] (done) | time=3ms
+INFO: Sensor C# Analysis Log [csharp]
+INFO: Sensor C# Analysis Log [csharp] (done) | time=20ms
+INFO: Sensor C# Properties [csharp]
+INFO: Sensor C# Properties [csharp] (done) | time=0ms
+INFO: Sensor SurefireSensor [java]
+INFO: parsing [/var/lib/jenkins/workspace/geolocation/target/surefire-reports]
+INFO: Sensor SurefireSensor [java] (done) | time=74ms
+INFO: Sensor HTML [web]
+INFO: Sensor HTML [web] (done) | time=925ms
+INFO: Sensor Text Sensor [text]
+INFO: 1597 source files to be analyzed
+INFO: 1597/1597 source files have been analyzed
+INFO: Sensor Text Sensor [text] (done) | time=842ms
+INFO: Sensor VB.NET Project Type Information [vbnet]
+INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=3ms
+INFO: Sensor VB.NET Analysis Log [vbnet]
+INFO: Sensor VB.NET Analysis Log [vbnet] (done) | time=24ms
+INFO: Sensor VB.NET Properties [vbnet]
+INFO: Sensor VB.NET Properties [vbnet] (done) | time=0ms
+INFO: Sensor JaCoCo XML Report Importer [jacoco]
+INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=38ms
+INFO: Sensor JavaScript analysis [javascript]
+INFO: Deploying custom rules bundle jar:file:/var/lib/jenkins/.sonar/cache/985cd0bb0f213099aac4466b1eea8b9a/sonar-securityjsfrontend-plugin.jar!/js-vulnerabilities-rules-1.0.0.tgz to /var/lib/jenkins/workspace/geolocation/.scannerwork/.sonartmp/eslint-bridge-bundle/package/custom-rules8188405308325884799
+ERROR: Error when running: 'node -v'. Is Node.js available during analysis?
+org.sonarsource.nodejs.NodeCommandException: Error when running: 'node -v'. Is Node.js available during analysis?
+	at org.sonarsource.nodejs.NodeCommand.start(NodeCommand.java:79)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.getVersion(NodeCommandBuilderImpl.java:203)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.checkNodeCompatibility(NodeCommandBuilderImpl.java:169)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.build(NodeCommandBuilderImpl.java:143)
+	at org.sonar.plugins.javascript.eslint.EslintBridgeServerImpl.initNodeCommand(EslintBridgeServerImpl.java:201)
+	at org.sonar.plugins.javascript.eslint.EslintBridgeServerImpl.startServer(EslintBridgeServerImpl.java:142)
+	at org.sonar.plugins.javascript.eslint.EslintBridgeServerImpl.startServerLazily(EslintBridgeServerImpl.java:230)
+	at org.sonar.plugins.javascript.eslint.AbstractEslintSensor.execute(AbstractEslintSensor.java:66)
+	at org.sonar.scanner.sensor.AbstractSensorWrapper.analyse(AbstractSensorWrapper.java:62)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:75)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.lambda$execute$1(ModuleSensorsExecutor.java:48)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.withModuleStrategy(ModuleSensorsExecutor.java:66)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:48)
+	at org.sonar.scanner.scan.ModuleScanContainer.doAfterStart(ModuleScanContainer.java:64)
+	at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:123)
+	at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:109)
+	at org.sonar.scanner.scan.ProjectScanContainer.scan(ProjectScanContainer.java:452)
+	at org.sonar.scanner.scan.ProjectScanContainer.scanRecursively(ProjectScanContainer.java:448)
+	at org.sonar.scanner.scan.ProjectScanContainer.doAfterStart(ProjectScanContainer.java:406)
+	at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:123)
+	at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:109)
+	at org.sonar.scanner.bootstrap.GlobalContainer.doAfterStart(GlobalContainer.java:130)
+	at org.sonar.core.platform.ComponentContainer.startComponents(ComponentContainer.java:123)
+	at org.sonar.core.platform.ComponentContainer.execute(ComponentContainer.java:109)
+	at org.sonar.batch.bootstrapper.Batch.doExecute(Batch.java:58)
+	at org.sonar.batch.bootstrapper.Batch.execute(Batch.java:52)
+	at org.sonarsource.scanner.api.internal.batch.BatchIsolatedLauncher.execute(BatchIsolatedLauncher.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherProxy.invoke(IsolatedLauncherProxy.java:60)
+	at com.sun.proxy.$Proxy0.execute(Unknown Source)
+	at org.sonarsource.scanner.api.EmbeddedScanner.doExecute(EmbeddedScanner.java:189)
+	at org.sonarsource.scanner.api.EmbeddedScanner.execute(EmbeddedScanner.java:138)
+	at org.sonarsource.scanner.cli.Main.execute(Main.java:112)
+	at org.sonarsource.scanner.cli.Main.execute(Main.java:75)
+	at org.sonarsource.scanner.cli.Main.main(Main.java:61)
+Caused by: java.io.IOException: Cannot run program "node": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(Unknown Source)
+	at java.base/java.lang.ProcessBuilder.start(Unknown Source)
+	at org.sonarsource.nodejs.ProcessWrapperImpl.startProcess(ProcessWrapperImpl.java:39)
+	at org.sonarsource.nodejs.NodeCommand.start(NodeCommand.java:77)
+	... 37 common frames omitted
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.base/java.lang.ProcessImpl.start(Unknown Source)
+	... 41 common frames omitted
+
+INFO: Sensor JavaScript analysis [javascript] (done) | time=2923ms
+INFO: Sensor TypeScript analysis [javascript]
+INFO: No input files found for analysis
+INFO: Sensor TypeScript analysis [javascript] (done) | time=2ms
+INFO: Sensor CSS Metrics [javascript]
+INFO: Sensor CSS Metrics [javascript] (done) | time=1959ms
+INFO: Sensor CSS Rules [javascript]
+INFO: Sensor CSS Rules [javascript] (done) | time=5ms
+INFO: Sensor ThymeLeaf template sensor [securityjavafrontend]
+INFO: Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=502ms
+INFO: Sensor Serverless configuration file sensor [security]
+INFO: 0 Serverless function entries were found in the project
+INFO: 0 Serverless function handlers were kept as entrypoints
+INFO: Sensor Serverless configuration file sensor [security] (done) | time=10ms
+INFO: Sensor AWS SAM template file sensor [security]
+INFO: Sensor AWS SAM template file sensor [security] (done) | time=3ms
+INFO: Sensor javabugs [dbd]
+INFO: Reading IR files from: /var/lib/jenkins/workspace/geolocation/.scannerwork/ir/java
+INFO: Analyzing 3106 functions to detect bugs.
+INFO: Sensor javabugs [dbd] (done) | time=567ms
+INFO: Sensor pythonbugs [dbd]
+INFO: Reading IR files from: /var/lib/jenkins/workspace/geolocation/.scannerwork/ir/python
+INFO: No IR files have been included for analysis.
+INFO: Sensor pythonbugs [dbd] (done) | time=2ms
+INFO: Sensor JavaSecuritySensor [security]
+INFO: Reading type hierarchy from: /var/lib/jenkins/workspace/geolocation/.scannerwork/ucfg2/java
+INFO: Read 79 type definitions
+INFO: Reading UCFGs from: /var/lib/jenkins/workspace/geolocation/.scannerwork/ucfg2/java
+INFO: 01:13:06.29793 Building Runtime Type propagation graph
+INFO: 01:13:06.303613 Running Tarjan on 0 nodes
+INFO: 01:13:06.304632 Tarjan found 0 components
+INFO: 01:13:06.304987 Variable type analysis: done
+INFO: 01:13:06.30588 Building Runtime Type propagation graph
+INFO: 01:13:06.306153 Running Tarjan on 0 nodes
+INFO: 01:13:06.306235 Tarjan found 0 components
+INFO: 01:13:06.306708 Variable type analysis: done
+INFO: Analyzing 22 ucfgs to detect vulnerabilities.
+INFO: All rules entrypoints : 0
+INFO: Retained UCFGs : 0
+INFO: Taint analysis starting. Entrypoints: 0
+INFO: Taint analysis: done.
+INFO: Sensor JavaSecuritySensor [security] (done) | time=2340ms
+INFO: Sensor CSharpSecuritySensor [security]
+INFO: Reading type hierarchy from: /var/lib/jenkins/workspace/geolocation/ucfg_cs2
+INFO: Read 0 type definitions
+INFO: Reading UCFGs from: /var/lib/jenkins/workspace/geolocation/ucfg_cs2
+INFO: No UCFGs have been included for analysis.
+INFO: Sensor CSharpSecuritySensor [security] (done) | time=0ms
+INFO: Sensor PhpSecuritySensor [security]
+INFO: Reading type hierarchy from: /var/lib/jenkins/workspace/geolocation/.scannerwork/ucfg2/php
+INFO: Read 0 type definitions
+INFO: Reading UCFGs from: /var/lib/jenkins/workspace/geolocation/.scannerwork/ucfg2/php
+INFO: No UCFGs have been included for analysis.
+INFO: Sensor PhpSecuritySensor [security] (done) | time=0ms
+INFO: Sensor PythonSecuritySensor [security]
+INFO: Reading type hierarchy from: /var/lib/jenkins/workspace/geolocation/.scannerwork/ucfg2/python
+INFO: Read 0 type definitions
+INFO: Reading UCFGs from: /var/lib/jenkins/workspace/geolocation/.scannerwork/ucfg2/python
+INFO: No UCFGs have been included for analysis.
+INFO: Sensor PythonSecuritySensor [security] (done) | time=0ms
+INFO: Sensor JsSecuritySensor [security]
+INFO: Reading type hierarchy from: /var/lib/jenkins/workspace/geolocation/.scannerwork/ucfg2/js
+INFO: Read 0 type definitions
+INFO: Reading UCFGs from: /var/lib/jenkins/workspace/geolocation/.scannerwork/ucfg2/js
+INFO: No UCFGs have been included for analysis.
+INFO: Sensor JsSecuritySensor [security] (done) | time=0ms
+INFO: ------------- Run sensors on project
+INFO: Sensor Analysis Warnings import [csharp]
+INFO: Sensor Analysis Warnings import [csharp] (done) | time=1ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=268ms
+INFO: Sensor Java CPD Block Indexer
+INFO: Sensor Java CPD Block Indexer (done) | time=1156ms
+INFO: SCM Publisher SCM provider for this project is: git
+INFO: SCM Publisher 2 source files to be analyzed
+INFO: Blaming files using jgit implementation
+INFO: Blaming files using jgit implementation (done) | time=209ms
+INFO: SCM Publisher 2/2 source files have been analyzed (done) | time=283ms
+INFO: CPD Executor 450 files had no CPD blocks
+INFO: CPD Executor Calculating CPD for 933 files
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/ionicons/fonts/com/spring/bioMedical/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/font/temp-src/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/spring/bioMedical/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/java/com/spring/bioMedical/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/spring/bioMedical/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/spring/bioMedical/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/spring/bioMedical/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/spring/bioMedical/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/ionicons/fonts/com/com/spring/bioMedical/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/spring/bioMedical/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/spring/bioMedical/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/spring/bioMedical/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/spring/bioMedical/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/spring/bioMedical/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/spring/bioMedical/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/java/com/spring/bioMedical/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/spring/bioMedical/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/font/temp-src/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/ionicons/fonts/com/spring/bioMedical/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/spring/bioMedical/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Controller/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/ionicons/fonts/com/com/spring/bioMedical/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/spring/bioMedical/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/spring/bioMedical/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/spring/bioMedical/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/spring/bioMedical/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/ionicons/fonts/com/spring/bioMedical/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/ionicons/fonts/com/com/spring/bioMedical/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/font/temp-src/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Controller/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Controller/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/spring/bioMedical/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Connection/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Dao/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/spring/bioMedical/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/java/com/spring/bioMedical/Controller/UserController.java for block at line 46. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Dao/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/spring/bioMedical/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Log/Logout.java for block at line 17. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/temp/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/spring/bioMedical/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Dao/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Dao/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Controller/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Controller/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Controller/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Dao/Post - Copy (2).java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Connection/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Connection/Dao/Login.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/images/com/temp-src/temp/Controller/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/temp/Dao/Post - Copy.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/css/css/com/temp-src/temp/Connection/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/temp/Connection/Controller/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/slick/com/temp-src/Controller/AdminController.java for block at line 59. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Controller/Logout.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Dao/Logout - Copy.java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/flaticon/temp-src/temp/Connection/Post.java for block at line 44. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/js/com/temp-src/temp/Connection/Login - Copy (2).java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/fonts/icomoon/com/temp-src/temp/Connection/Login - Copy.java for block at line 19. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/com/temp-src/temp/Connection/Dao/Logout - Copy (2).java for block at line 14. Keep only the first 100 references.
+WARN: Too many duplication references on file src/main/resources/static/doctor/vendor/countdown/com/temp-src/Controller/DoctorController.java for block at line 51. Keep only the first 100 references.
+INFO: CPD Executor CPD calculation finished (done) | time=1879ms
+INFO: Analysis report generated in 654ms, dir size=14 MB
+INFO: Analysis report compressed in 2866ms, zip size=6 MB
+INFO: Analysis report uploaded in 3338ms
+INFO: ANALYSIS SUCCESSFUL, you can find the results at: https://sonarcloud.io/dashboard?id=tabenjamin2000_geolocation
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at https://sonarcloud.io/api/ce/task?id=AYNJAc-uHYEqvp6nOTTs
+INFO: Closing heartbeat service
+INFO: Analysis total time: 1:09.887 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 1:21.641s
+INFO: Final Memory: 215M/525M
+INFO: ------------------------------------------------------------------------
+Parsing POMs
+Established TCP socket on 34286
+[geolocation] $ /usr/lib/jvm/java-11/bin/java -cp /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/opt/maven/boot/plexus-classworlds-2.6.0.jar:/opt/maven/conf/logging jenkins.maven3.agent.Maven35Main /opt/maven /var/lib/jenkins/%C/jenkins/war/WEB-INF/lib/remoting-3044.vb_940a_a_e4f72e.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 34286
+<===[JENKINS REMOTING CAPACITY]===>   channel started
+Executing Maven:  -B -f /var/lib/jenkins/workspace/geolocation/pom.xml install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.spring:bioMedical >------------------------
+[INFO] Building bioMedical 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4O2hyJbcSLsAuJVxiwV1c0QzXhdyXdAfp0uxefMZDWT9AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ bioMedical ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 3371 resources
+[INFO] 
+[8mha:////4O2hyJbcSLsAuJVxiwV1c0QzXhdyXdAfp0uxefMZDWT9AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ bioMedical ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4O2hyJbcSLsAuJVxiwV1c0QzXhdyXdAfp0uxefMZDWT9AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ bioMedical ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/geolocation/src/test/resources
+[INFO] 
+[8mha:////4O2hyJbcSLsAuJVxiwV1c0QzXhdyXdAfp0uxefMZDWT9AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ bioMedical ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4O2hyJbcSLsAuJVxiwV1c0QzXhdyXdAfp0uxefMZDWT9AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ bioMedical ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+01:13:30.323 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.328 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:13:30.341 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:13:30.407 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.spring.bioMedical.BioMedicalApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:13:30.429 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.spring.bioMedical.BioMedicalApplicationTests], using SpringBootContextLoader
+01:13:30.436 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTests-context.xml] does not exist
+01:13:30.437 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTestsContext.groovy] does not exist
+01:13:30.437 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.spring.bioMedical.BioMedicalApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:13:30.439 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.spring.bioMedical.BioMedicalApplicationTests]: BioMedicalApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:13:30.501 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.603 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/geolocation/target/classes/com/spring/bioMedical/BioMedicalApplication.class]
+01:13:30.605 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.spring.bioMedical.BioMedicalApplication for test class com.spring.bioMedical.BioMedicalApplicationTests
+01:13:30.721 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.spring.bioMedical.BioMedicalApplicationTests]: using defaults.
+01:13:30.722 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+01:13:30.738 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ea5b703, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2a7ed1f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3fa247d1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2cb2fc20, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4f4c4b1a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@723e88f9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5f0fd5a0, org.springframework.test.context.event.EventPublishingTestExecutionListener@64e7619d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@495ee280, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4fa1c212, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6ea2bc93, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3116c353, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f627d13]
+01:13:30.742 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.743 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.780 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.781 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:13:30.781 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:13:30.782 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.spring.bioMedical.BioMedicalApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:13:30.783 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.spring.bioMedical.BioMedicalApplicationTests], using SpringBootContextLoader
+01:13:30.783 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTests-context.xml] does not exist
+01:13:30.784 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.spring.bioMedical.BioMedicalApplicationTests]: class path resource [com/spring/bioMedical/BioMedicalApplicationTestsContext.groovy] does not exist
+01:13:30.784 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.spring.bioMedical.BioMedicalApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:13:30.785 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.spring.bioMedical.BioMedicalApplicationTests]: BioMedicalApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:13:30.787 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.788 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.spring.bioMedical.BioMedicalApplication for test class com.spring.bioMedical.BioMedicalApplicationTests
+01:13:30.790 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.spring.bioMedical.BioMedicalApplicationTests]: using defaults.
+01:13:30.790 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+01:13:30.791 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6337c201, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5c669da8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@31920ade, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1d483de4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4032d386, org.springframework.test.context.transaction.TransactionalTestExecutionListener@28d18df5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@934b6cb, org.springframework.test.context.event.EventPublishingTestExecutionListener@55cf0d14, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3b74ac8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27adc16e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b83a9be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2609b277, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1fd14d74]
+01:13:30.791 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.791 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.877 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.878 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+[INFO] Running com.spring.bioMedical.BioMedicalApplicationTests
+01:13:30.888 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.888 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.889 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.889 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.892 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6581dc0a testClass = BioMedicalApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@39de3d36 testClass = BioMedicalApplicationTests, locations = '{}', classes = '{class com.spring.bioMedical.BioMedicalApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@38afe297, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@70325e14, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@58a9760d, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1dac5ef], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+01:13:30.896 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.896 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.spring.bioMedical.BioMedicalApplicationTests]
+01:13:30.925 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-09-17 01:13:31.467  INFO 20658 --- [           main] c.s.b.BioMedicalApplicationTests         : Starting BioMedicalApplicationTests on localhost.localdomain with PID 20658 (started by jenkins in /var/lib/jenkins/workspace/geolocation)
+2022-09-17 01:13:31.468  INFO 20658 --- [           main] c.s.b.BioMedicalApplicationTests         : No active profile set, falling back to default profiles: default
+2022-09-17 01:13:31.555 DEBUG 20658 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2b43529a
+2022-09-17 01:13:32.885  INFO 20658 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-17 01:13:32.983  INFO 20658 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84ms. Found 3 JPA repository interfaces.
+2022-09-17 01:13:33.644  INFO 20658 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-09-17 01:13:33.852  INFO 20658 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-17 01:13:34.125  INFO 20658 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+Hibernate: create table app (id integer not null, date varchar(255), description varchar(255), email varchar(255), name varchar(255) not null, regtime varchar(255), time varchar(255), primary key (id))
+Hibernate: alter table app drop constraint if exists UK_88vfgccvckwwip06k7tpf8uk3
+Hibernate: alter table app add constraint UK_88vfgccvckwwip06k7tpf8uk3 unique (name)
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+2022-09-17 01:13:35.904  INFO 20658 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+ 
+ 
+ emailService ============================> com.spring.bioMedical.service.EmailService@1ecec098
+ 
+ 
+
+2022-09-17 01:13:36.601  WARN 20658 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-17 01:13:36.858  INFO 20658 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/resources/**'], []
+2022-09-17 01:13:36.858  INFO 20658 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/login/**'], []
+2022-09-17 01:13:36.858  INFO 20658 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/static/**'], []
+2022-09-17 01:13:36.858  INFO 20658 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Script/**'], []
+2022-09-17 01:13:36.858  INFO 20658 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Style/**'], []
+2022-09-17 01:13:36.858  INFO 20658 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Icon/**'], []
+2022-09-17 01:13:36.858  INFO 20658 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2022-09-17 01:13:36.858  INFO 20658 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/vendor/**'], []
+2022-09-17 01:13:36.859  INFO 20658 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/bootstrap/**'], []
+2022-09-17 01:13:36.859  INFO 20658 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/Image/**'], []
+2022-09-17 01:13:37.014  INFO 20658 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a97517, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b6e4761, org.springframework.security.web.header.HeaderWriterFilter@49741274, org.springframework.security.web.csrf.CsrfFilter@3bc18fec, org.springframework.security.web.authentication.logout.LogoutFilter@364c93e6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@72240290, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@656302c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bcfdaf3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@284b487f, org.springframework.security.web.session.SessionManagementFilter@1c22642d, org.springframework.security.web.access.ExceptionTranslationFilter@60cc20e1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31450fc0]
+2022-09-17 01:13:37.035  INFO 20658 --- [           main] o.s.s.p.JdbcUserDetailsManager           : No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2022-09-17 01:13:37.546  INFO 20658 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-17 01:13:37.565 DEBUG 20658 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-09-17 01:13:37.652 DEBUG 20658 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 27 mappings in 'requestMappingHandlerMapping'
+2022-09-17 01:13:37.704 DEBUG 20658 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-09-17 01:13:37.721 DEBUG 20658 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-09-17 01:13:37.783  WARN 20658 --- [           main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-09-17 01:13:37.907  INFO 20658 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:userauth'
+2022-09-17 01:13:38.049  INFO 20658 --- [           main] c.s.b.BioMedicalApplicationTests         : Started BioMedicalApplicationTests in 7.111 seconds (JVM running for 8.802)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.306 s - in com.spring.bioMedical.BioMedicalApplicationTests
+2022-09-17 01:13:38.252 DEBUG 20658 --- [extShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@2b43529a, started on Sat Sep 17 01:13:31 UTC 2022
+2022-09-17 01:13:38.255  INFO 20658 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-17 01:13:38.257  INFO 20658 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-17 01:13:38.268  INFO 20658 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-17 01:13:38.272  INFO 20658 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[JENKINS] Recording test results
+[INFO] 
+[8mha:////4O2hyJbcSLsAuJVxiwV1c0QzXhdyXdAfp0uxefMZDWT9AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ bioMedical ---
+[INFO] Building jar: /var/lib/jenkins/workspace/geolocation/target/bioMedical-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:////4O2hyJbcSLsAuJVxiwV1c0QzXhdyXdAfp0uxefMZDWT9AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ bioMedical ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[8mha:////4O2hyJbcSLsAuJVxiwV1c0QzXhdyXdAfp0uxefMZDWT9AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ bioMedical ---
+[INFO] Installing /var/lib/jenkins/workspace/geolocation/target/bioMedical-0.0.1-SNAPSHOT.jar to /var/lib/jenkins/.m2/repository/com/spring/bioMedical/0.0.1-SNAPSHOT/bioMedical-0.0.1-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/workspace/geolocation/pom.xml to /var/lib/jenkins/.m2/repository/com/spring/bioMedical/0.0.1-SNAPSHOT/bioMedical-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.204 s
+[INFO] Finished at: 2022-09-17T01:13:47Z
+[INFO] ------------------------------------------------------------------------
+Waiting for Jenkins to finish collecting data
+[JENKINS] Archiving /var/lib/jenkins/workspace/geolocation/pom.xml to com.spring/bioMedical/0.0.1-SNAPSHOT/bioMedical-0.0.1-SNAPSHOT.pom
+[JENKINS] Archiving /var/lib/jenkins/workspace/geolocation/target/bioMedical-0.0.1-SNAPSHOT.jar to com.spring/bioMedical/0.0.1-SNAPSHOT/bioMedical-0.0.1-SNAPSHOT.jar
+channel stopped
+Finished: SUCCESS
